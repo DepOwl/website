@@ -39,6 +39,8 @@ body::before {
     max-width: 700px;
     width: 90%;
     border: 1px solid rgba(244, 237, 227, 0.2);
+    position: relative;
+    z-index: 1;
 }
 
 .logo-container {
@@ -95,7 +97,7 @@ h1 {
     border: 2px solid rgba(244, 197, 66, 0.3);
     color: #F4EDE3;
     font-weight: 500;
-    transition: all 0.3s ease;
+    transition: background 0.3s ease, border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .coming-soon:hover {

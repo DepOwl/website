@@ -1,4 +1,6 @@
-<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Allie the Owl mascot with glasses holding a document with sparkles">
+  <title>Allie the Owl</title>
+  <desc>A friendly owl character wearing glasses and holding a document with a checkmark, surrounded by golden sparkles</desc>
   <!-- Sparkle 1 (top left) -->
   <g opacity="0.9">
     <path d="M 60 80 L 65 90 L 60 100 L 55 90 Z" fill="#F4C542"/>
@@ -36,6 +38,9 @@
   <!-- Wing (left) -->
   <ellipse cx="135" cy="220" rx="25" ry="45" fill="#5A7B6A" opacity="0.8"/>
   
+  <!-- Wing (right) -->
+  <ellipse cx="265" cy="220" rx="25" ry="45" fill="#5A7B6A" opacity="0.8"/>
+  
   <!-- Owl head -->
   <circle cx="200" cy="130" r="65" fill="#7A9B8A" stroke="#2D4A3E" stroke-width="3"/>
   
@@ -68,9 +73,6 @@
   
   <!-- Beak -->
   <path d="M 200 145 L 190 160 L 210 160 Z" fill="#F4C542" stroke="#2D4A3E" stroke-width="2"/>
-  
-  <!-- Wing (right) -->
-  <ellipse cx="265" cy="220" rx="25" ry="45" fill="#5A7B6A" opacity="0.8"/>
   
   <!-- Chest feather detail -->
   <ellipse cx="200" cy="210" rx="40" ry="50" fill="#FFFFFF" opacity="0.3"/>
